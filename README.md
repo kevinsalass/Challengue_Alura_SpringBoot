@@ -1,27 +1,40 @@
-
 # *Challenge One| Spring Boot con Java - API REST de Tópicos|*
 ---
 
 <h1 align="center">DESCRIPCIÓN</h1>
 <p align="justigy">Este proyecto es una API REST desarrollada en Spring Boot con Java que proporciona operaciones CRUD (Crear, Leer, Actualizar, Eliminar) para gestionar tópicos. Además, incluye funcionalidades para la creación de usuarios, así como autenticación mediante un sistema de login. La seguridad de la API se implementa mediante el uso de JSON Web Tokens (JWT) para la encriptación de contraseñas.</p>
 
-# Funcionalidades Principales: 📁 
+# Estrucutra del proyecto
+<img src="https://github.com/kevinsalass/Challengue_Alura_SpringBoot/blob/master/imagen/estructuraApi.png" />
+
+---
+# Test de la API con Insomnia 
+<p align="center">
+  <img src="https://github.com/kevinsalass/Challengue_Alura_SpringBoot/blob/master/imagen/V%C3%ADdeo%20sin%20t%C3%ADtulo%20%E2%80%90%20Hecho%20con%20Clipchamp.gif" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/kevinsalass/Challengue_Alura_SpringBoot/blob/master/imagen/V%C3%ADdeo%20sin%20t%C3%ADtulo%20%E2%80%90%20Hecho%20con%20Clipchamp%20(1).gif" />
+</p>
+
+---
+# Funcionalidades Principales📁 
 ## Gestión de Tópicos:
 * Crear Tópico: Permite la creación de nuevos tópicos con información relevante.
 * Actualizar Tópico: Posibilita la actualización de la información de un tópico existente.
 * Eliminar Tópico: Permite la eliminación de un tópico según su identificador único.
 * Consultar Tópicos: Proporciona la capacidad de obtener información detallada de los tópicos almacenados.
 
-## Gestión de Usuarios:
+## Gestión de Usuarios👤
 * Crear Usuario: Permite la creación de nuevos usuarios con información de autenticación.
 ## Autenticación y Seguridad:
 * Sistema de Login: Implementa un mecanismo de login para la autenticación de usuarios.
 * JWT (JSON Web Token): Utiliza JWT para la generación de tokens seguros, asegurando la transmisión segura de información de autenticación.
 * Encriptación de Contraseñas: Garantiza la seguridad de las contraseñas mediante técnicas de encriptación.
 ---
-
-# Configuración del Proyecto:
+# Configuración del Proyecto📁 
 * Clonar el Repositorio:
+  git clone https://github.com/kevinsalass/Challengue_Alura_SpringBoot.git
 * Configuración de la Base de Datos: Asegurarse de tener una base de datos configurada y ajustar las propiedades en application.properties.
 
 ## Construido con 🛠️
@@ -37,12 +50,15 @@ _Lenguajes que utilize para crear el proyecto: _
 
 * ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white "Figma")
 
+* ![Eclipse IDE](https://img.shields.io/badge/Eclipse%20IDE-2C2255?style=for-the-badge&logo=eclipse-ide&logoColor=white)
+
+* ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white)
+
 * ![VisualStudioCode](https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 
-### :small_orange_diamond: Librerias (jar) utilizadas:
-![Driver1](https://img.shields.io/badge/Libreria-JCalendar_1.4-orange?)
-![Driver3](https://img.shields.io/badge/Libreria%20-mysql_Conector_j_8.0.32_-blue?)
+* ![Insomnia](https://img.shields.io/badge/Insomnia-5849BE?style=for-the-badge&logo=insomnia&logoColor=white "Insomnia")
 
+---
 ## Autores ✒️
 _Los que ayudaron a crear este proyecto:_
 
